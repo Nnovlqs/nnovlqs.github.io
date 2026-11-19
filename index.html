@@ -3,99 +3,139 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nolhan Velasques — Artiste-designer &amp; chercheur</title>
-  <meta name="description" content="Portfolio de Nolhan Velasques, artiste-designer et chercheur martiniquais.">
-  <link rel="icon" href="assets/img/logo/logo-vert.png">
+  <title>CHIVÉ — Nolhan Velasques</title>
+  <meta name="description" content="CHIVÉ : projet de recherche en design sur les discriminations capillaires visant les cheveux crépus aux Antilles.">
+  <link rel="icon" href="../../assets/img/logo/logo-vert.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="../../css/style.css">
 </head>
-<body class="theme-accueil">
+<body class="theme-nb">
   <header class="header">
     <div class="container">
-      <a href="index.html" class="logo">VELASQUES</a>
+      <a href="../../index.html" class="logo">VELASQUES</a>
       <button class="menu-toggle" aria-label="Menu" aria-expanded="false">☰</button>
       <nav class="nav">
         <ul>
-          <li><a href="index.html">Accueil</a></li>
-          <li><a href="a-propos.html">À propos</a></li>
-          <li><a href="projets.html">Projets</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="../../index.html">Accueil</a></li>
+          <li><a href="../../a-propos.html">À propos</a></li>
+          <li><a href="../../projets.html" class="active">Projets</a></li>
+          <li><a href="../../contact.html">Contact</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
   <main>
-    <section class="cover">
-      <img class="cover-logo" src="assets/img/logo/symbole-blanc.png" alt="Velasques">
-      <a href="#intro" class="cover-scroll" aria-label="Découvrir">↓</a>
-    </section>
-
-    <section id="intro" class="hero container">
-      <h1 class="nom">Nolhan VELASQUES</h1>
-      <p class="kicker">Artiste-designer &amp; chercheur · Martinique</p>
-      <p class="accroche">Questionner l'héritage antillais pour inventer de nouveaux imaginaires.</p>
-      <div class="presentation">
-        <p>Artiste-designer et chercheur martiniquais, j'ai trouvé dans le dessin ma première forme d'expression, avant de me tourner vers le design produit. Après une licence en design d'objet spécialisée en éco-conception, je poursuis aujourd'hui un Master 2 Design – Recherche, Innovation et Développement à Paris.</p>
-        <p>Ma culture afro-caribéenne constitue l'essence de mes travaux : je questionne mon héritage antillais et ses identités pluriculturelles pour explorer de nouveaux imaginaires postcoloniaux.</p>
-      </div>
-      <div class="actions">
-        <a href="projets.html" class="btn">Voir mes projets</a>
-        <a href="a-propos.html" class="btn btn-outline">À propos</a>
-      </div>
+    <section class="project-hero container">
+      <a href="../../projets.html" class="back-link">← Tous les projets</a>
+      <p class="kicker">Projet d'étude · Recherche &amp; design</p>
+      <h1 class="project-cover fond-noir"><img src="images/couverture.png" alt="CHIVÉ"></h1>
+      <dl class="project-meta">
+        <div><dt>Année</dt><dd>2026</dd></div>
+        <div><dt>Type</dt><dd>Projet d'étude</dd></div>
+        <div><dt>Thèmes</dt><dd>Histoire · Esthétique · Postcolonial</dd></div>
+        <div><dt>Territoire</dt><dd>Antilles</dd></div>
+      </dl>
     </section>
 
     <section class="band-light"><div class="section container">
-      <h2 class="section-title">Projets</h2>
-      <p class="lead">Une sélection de mes travaux de recherche et de design.</p>
-      <!-- PROJETS : 1 projet = 1 carte <a class="card">. Image de carte : projets/<dossier>/images/couverture.jpg
-           RAMIFICATION (gauche → droite) posée PAR-DESSUS les cartes, traverse les images. Style : .ramif dans style.css -->
-      <div class="grid-ramif">
-      <svg class="ramif reveal" viewBox="0 0 1200 1000" preserveAspectRatio="none" aria-hidden="true">
-        <path class="tige" pathLength="1" d="M-20,150 C120,150 220,110 380,125 S640,190 820,150 S1080,95 1220,130"/>
-        <path class="b1" pathLength="1" d="M300,122 C340,70 400,45 470,40"/>
-        <path class="b1" pathLength="1" d="M560,165 C600,300 520,480 600,640 S760,700 860,660"/>
-        <path class="b2" pathLength="1" d="M600,640 C560,700 470,720 380,700"/>
-        <path class="b1" pathLength="1" d="M900,135 C960,90 1040,70 1110,75"/>
-        <path class="b1" pathLength="1" d="M140,148 C160,300 120,480 220,620 S300,700 340,720"/>
-        <path class="b2" pathLength="1" d="M860,660 C940,630 1020,640 1080,600"/>
-        <path class="b2" pathLength="1" d="M700,170 C740,200 760,230 770,270"/>
-      </svg>
-      <div class="grid">
-        <a href="projets/chive/index.html" class="card reveal">
-          <img class="card-img" src="projets/chive/images/couverture.png" alt="CHIVÉ" style="background:#000">
-          <div class="card-body"><h3>CHIVÉ</h3><p>Laboratoire temporel sur l'histoire, l'esthétique et les récits postcoloniaux du cheveu crépu aux Antilles.</p><div class="tags"><span class="tag">Recherche</span><span class="tag">Design</span></div></div>
-        </a>
-        <a href="projets/heiya/index.html" class="card reveal">
-          <img class="card-img" src="projets/heiya/images/couverture.jpg" alt="HEIYA">
-          <div class="card-body"><h3>HEIYA</h3><p>Bouteille en verre pédagogique et sensorielle, pensée comme un rituel. Verallia Design Awards 2026.</p><div class="tags"><span class="tag">Design produit</span><span class="tag">Concours</span></div></div>
-        </a>
-        <a href="projets/matadore/index.html" class="card reveal">
-          <img class="card-img" src="projets/matadore/images/couverture.jpg" alt="MATADORE">
-          <div class="card-body"><h3>MATADORE</h3><p>Caribbean Perfume : un parfum inspiré de la Matadore antillaise et de sa coiffe en madras.</p><div class="tags"><span class="tag">Design produit</span><span class="tag">Parfum</span></div></div>
-        </a>
-        <a href="projets/overade-design/index.html" class="card reveal">
-          <img class="card-img" src="projets/overade-design/images/couverture.jpg" alt="OVERADE Design">
-          <div class="card-body"><h3>OVERADE Design</h3><p>Alternance chez Overade : conception d'objets dans l'univers du vélo.</p><div class="tags"><span class="tag">Design produit</span></div></div>
-        </a>
-        <a href="projets/plante-envahissante/index.html" class="card reveal">
-          <div class="card-img"></div>
-          <div class="card-body"><h3>Plante envahissante</h3><p>[Courte description du projet.]</p><div class="tags"><span class="tag">Nature</span></div></div>
-        </a>
-        <a href="projets/bak-choose/index.html" class="card reveal">
-          <div class="card-img"></div>
-          <div class="card-body"><h3>BAK-CHOOSE</h3><p>[Courte description du projet.]</p><div class="tags"><span class="tag">Design</span></div></div>
-        </a>
+      <div class="project-text reveal">
+        <p class="intro">Mon projet d'étude CHIVÉ (« cheveu » en créole) est un travail de recherche qui questionne les discriminations capillaires visant les cheveux crépus aux Antilles.</p>
+        <p>Ces discriminations, qui touchent de nombreuses personnes afro-descendantes, trouvent leur origine dans des stéréotypes et des imaginaires hérités de la colonisation. Ces représentations persistent encore aujourd'hui dans les sphères sociales et professionnelles, alimentant le rejet, le racisme et les inégalités.</p>
+        <p>À travers le design, mon objectif est de construire de nouvelles représentations du cheveu crépu, en explorant des créations visuelles et de nouveaux récits postcoloniaux. Que racontent-ils&nbsp;? Que cachent-ils&nbsp;?</p>
+        <p>Entre passé, présent et futur, je vous invite à parcourir CHIVÉ, conçu comme un laboratoire temporel consacré à l'analyse historique, esthétique et postcoloniale du cheveu crépu.</p>
+        <p>Une exploration guidée par une question centrale :</p>
       </div>
-      </div>
+      <p class="project-question reveal">Quelle place voulons-nous donner au cheveu crépu dans les Antilles de demain&nbsp;?</p>
     </div></section>
 
-    <section class="section container">
-      <div class="cta reveal">
-        <h2 class="section-title">Un projet, une collaboration&nbsp;?</h2>
-        <p class="lead">Discutons-en ensemble.</p>
-        <a href="contact.html" class="btn">Me contacter</a>
+    <!-- GALERIE — 1 image = 1 bloc <figure>. Modifier le texte entre <h3> (titre) et <p> (description).
+         Pour ajouter une image : copier un bloc <figure> entier et changer le nom du fichier.
+         Mise en page : class="shot wide" (pleine largeur), "shot side" (image + texte à côté), "shot" (demi-largeur). -->
+    <section class="container" style="padding-bottom:96px">
+      <div class="gallery">
+
+        <h2 class="epoque reveal">Passé<span>Mémoire et archives</span></h2>
+
+        <!-- VIDÉO (fichier compressé, original HD dans _originaux/chive/) -->
+        <figure class="shot wide reveal">
+          <video src="images/chive-video.mp4" controls playsinline preload="metadata" poster="images/chive-video-poster.jpg"></video>
+          <figcaption>
+            <div class="cap-head">
+              <h3>CHIVÉ : QUE RACONTENT MES CHEVEUX</h3>
+              <dl class="specs">
+                <dt>Création</dt><dd>2026</dd>
+                <dt>Durée</dt><dd>01:35</dd>
+                <dt>Médium</dt><dd>Vidéo, performance</dd>
+              </dl>
+            </div>
+            <div class="cap-text">
+              <p>CHIVÉ (« cheveu » en créole) est une invitation à considérer mon cheveu comme un territoire de mémoire. En tissant des archives visuelles, sonores et gestuelles, où se rencontrent les héritages africains, indiens, européens et caribéens, cette performance raconte l'histoire coloniale de mes ancêtres. Chaque geste et chaque couleur portent une symbolique forte, exprimant racisme, esclavage et métissage culturel.</p>
+              <p class="ask">Et vous, que racontent vos cheveux&nbsp;?</p>
+            </div>
+          </figcaption>
+        </figure>
+
+        <h2 class="epoque reveal">Présent<span>Le regard du numérique</span></h2>
+
+        <figure class="shot wide reveal">
+          <img src="images/chive-01.jpg" alt="Planche de recherche visuelle : collage de portraits et de textures de cheveux crépus en noir, blanc et orange" loading="lazy">
+          <!-- CARROUSEL : ajouter/retirer une image = ajouter/retirer une ligne <img> -->
+          <div class="carrousel" data-carrousel>
+            <button class="car-btn prec" type="button" aria-label="Image précédente">‹</button>
+            <div class="car-piste">
+              <img src="images/chive-01-01.png" alt="IA CRÉPU — visuel 1" loading="lazy">
+              <img src="images/chive-01-02.jpg" alt="IA CRÉPU — visuel 2" loading="lazy">
+              <img src="images/chive-01-03.jpg" alt="IA CRÉPU — visuel 3" loading="lazy">
+              <img src="images/chive-01-04.jpg" alt="IA CRÉPU — visuel 4" loading="lazy">
+              <img src="images/chive-01-05.png" alt="IA CRÉPU — visuel 5" loading="lazy">
+            </div>
+            <button class="car-btn suiv" type="button" aria-label="Image suivante">›</button>
+          </div>
+          <figcaption>
+            <div class="cap-head">
+              <h3>IA CRÉPU</h3>
+              <dl class="specs">
+                <dt>Création</dt><dd>2026</dd>
+                <dt>Format</dt><dd>841 × 594 mm (A1)</dd>
+                <dt>Techniques</dt><dd>Production visuelle par lignes de code Python</dd>
+              </dl>
+            </div>
+            <div class="cap-text">
+              <p>Face à l'émancipation des outils numériques, j'interroge leur capacité à reproduire et à générer des formes de discrimination.</p>
+              <p>Peut-on utiliser les outils numériques qui reproduisent parfois des imaginaires coloniaux pour construire de nouvelles représentations du cheveu crépu&nbsp;?</p>
+              <p>Ce premier travail de recherche, développé à partir de lignes de code en Python, explore la manière dont le numérique analyse et représente les cheveux crépus présents sur internet. Quelles formes retient-il&nbsp;? Quelles caractéristiques révèle-t-il, transforme-t-il ou efface-t-il&nbsp;?</p>
+              <p>À travers cette œuvre, je cherche à révéler la richesse structurelle, graphique et visuelle du cheveu crépu, dont certaines caractéristiques échappent à notre perception immédiate.</p>
+              <p class="ask">Et vous, lorsque vous regardez votre cheveu, que voyez-vous&nbsp;?</p>
+            </div>
+          </figcaption>
+        </figure>
+
+        <h2 class="epoque reveal">Futur<span>Imaginer 2080</span></h2>
+
+        <figure class="shot wide reveal">
+          <img class="img-center" src="images/chive-02.jpg" alt="Rendu 3D : buste de femme coiffée de tresses en couronne, yeux voilés de perles et de coquillages" loading="lazy">
+          <figcaption>
+            <div class="cap-head">
+              <h3>KAMO 2080</h3>
+              <dl class="specs">
+                <dt>Création</dt><dd>2026</dd>
+                <dt>Format</dt><dd>841 × 594 mm (A1)</dd>
+                <dt>Techniques</dt><dd>Modélisation 3D Blender, photocollage, immersion auditive</dd>
+                <dt>Prix</dt><dd>2 500 €</dd>
+              </dl>
+            </div>
+            <div class="cap-text">
+              <p>KAMO est l'un de mes premiers projets de design spéculatif. Le design spéculatif est une démarche qui consiste à imaginer des objets, des usages et des modes de vie possibles dans le futur afin d'interroger notre présent. À travers une approche inspirée du Caribbean Futurism et de l'afrofuturisme, ce projet imagine une évolution des pratiques capillaires aux Antilles, à la croisée des héritages culturels, des transformations environnementales et des nouvelles technologies.</p>
+              <p>Aujourd'hui, les pratiques capillaires sont souvent guidées par des normes esthétiques, où le cheveu crépu est considéré comme une matière que l'on doit discipliner, lisser, ou rendre conforme à une certaine apparence.</p>
+              <p class="ask">Et si nous apprenions à percevoir nos cheveux non plus comme une matière à maîtriser mais comme une présence vivante à écouter&nbsp;?</p>
+              <p>KAMO 2080 représente une pratique capillaire de l'année 2080. À travers un langage de vibrations, KAMO permet de ressentir les besoins du cheveu et de les interpréter. Ces signaux deviennent une forme de dialogue, permettant d'identifier les gestes, les coiffures et les soins les plus appropriés pour son cheveu.</p>
+              <p class="ask">Et vous, quel héritage capillaire souhaitez-vous laisser aux générations futures&nbsp;?</p>
+            </div>
+          </figcaption>
+        </figure>
+
       </div>
     </section>
   </main>
@@ -108,6 +148,6 @@
       </div>
     </div>
   </footer>
-  <script src="js/main.js"></script>
+  <script src="../../js/main.js"></script>
 </body>
 </html>
