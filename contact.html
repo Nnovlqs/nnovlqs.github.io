@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Nolhan Velasques</title>
+  <link rel="icon" href="assets/img/logo/logo-vert.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="logo">VELASQUES</a>
+      <button class="menu-toggle" aria-label="Menu" aria-expanded="false">☰</button>
+      <nav class="nav">
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="a-propos.html">À propos</a></li>
+          <li><a href="projets.html">Projets</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section container contact">
+      <div class="contact-info">
+        <h1 class="section-title">Contact</h1>
+        <p class="lead">Pour un projet, une collaboration ou un échange, n'hésitez pas à m'écrire.</p>
+        <p><strong>Email :</strong> <a href="mailto:velasquesnolhan@gmail.com">velasquesnolhan@gmail.com</a></p>
+        <p><strong>LinkedIn :</strong> <a href="https://www.linkedin.com/in/nolhan-velasques" target="_blank" rel="noopener">nolhan-velasques</a></p>
+        <p><strong>Instagram design :</strong> <a href="https://www.instagram.com/velas_project/" target="_blank" rel="noopener">@velas_project</a></p>
+      </div>
+
+      <form id="contact-form" class="form" data-email="velasquesnolhan@gmail.com">
+        <label>Nom<input type="text" name="nom" required></label>
+        <label>Email<input type="email" name="email" required></label>
+        <label>Message<textarea name="message" rows="6" required></textarea></label>
+        <button type="submit" class="btn">Envoyer</button>
+        <p class="form-status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span class="year"></span> Nolhan Velasques</p>
+      <div class="socials">
+        <a href="https://www.linkedin.com/in/nolhan-velasques" target="_blank" rel="noopener">LinkedIn</a><a href="https://www.instagram.com/velas_project/" target="_blank" rel="noopener">Instagram design</a><a href="mailto:velasquesnolhan@gmail.com">Email</a>
+      </div>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
