@@ -1,1 +1,28 @@
-projet
+ORGANISATION DES PROJETS
+========================
+
+Un projet = un dossier. Les images d'un projet vont dans SON dossier images/.
+
+projets/
+  chive/                 CHIVÉ (noir & blanc)            -> le projet de référence
+  plante-envahissante/   Plante envahissante (vert nature)
+  overade-design/        OVERADE Design (noir & blanc)
+  heiya/                 HEIYA (noir & blanc)
+  _modele/               modèle à copier pour un nouveau projet (non publié)
+
+Dans chaque dossier :
+  index.html             la page du projet (textes + légendes des images)
+  images/
+    couverture.jpg       image de la carte (pages Accueil + Projets), format 16/10
+    <dossier>-01.jpg     images de la galerie, dans l'ordre : ex. heiya-01.jpg, heiya-02.jpg...
+
+Règles pour les noms de fichiers :
+- minuscules, sans accents, sans espaces (tirets à la place)
+- attention à la double extension : Windows cache souvent ".jpg", un fichier
+  renommé "chive-01.jpg" peut en réalité s'appeler "chive-01.jpg.jpg"
+  (Explorateur > Affichage > cocher "Extensions de noms de fichiers")
+- moins de 1 Mo par image. Les fichiers lourds (export HD) vont dans _originaux/,
+  Claude les compresse avec _outils/compresser-image.ps1
+
+Changer l'ambiance d'un projet : dans index.html, la classe du <body> :
+  theme-nb (noir & blanc) · theme-nature (vert mousse) · rien (charte du site)

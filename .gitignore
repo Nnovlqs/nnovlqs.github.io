@@ -1,0 +1,11 @@
+# Fichiers de travail : ne JAMAIS envoyer sur GitHub
+_outils/
+wordpress-mcp/
+Nouveau dossier/
+projets/_modele/
+CLAUDE.md
+CHARTE.md
+.claude/
+desktop.ini
+Thumbs.db
+*.tmp

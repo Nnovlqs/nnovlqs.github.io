@@ -9,7 +9,6 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../../css/style.css">
-  <script type="module" src="https://unpkg.com/@google/model-viewer@3.5.0/dist/model-viewer.min.js"></script>
 </head>
 <body class="theme-nb">
   <header class="header">
@@ -53,16 +52,6 @@
         <p>Elle ne se contente pas de contenir une boisson : elle raconte ce qu'elle apporte, elle explique, elle éveille les sens.</p>
       </div>
       <p class="project-question reveal">Elle transforme l'acte de boire en un rituel conscient.</p>
-    </section>
-
-    <!-- MODÈLE 3D (Blender → .glb). Verre rendu transparent par _outils/glb-verre-transparent.py -->
-    <section class="project-3d">
-      <model-viewer src="modele/heiya.glb" alt="HEIYA, modélisation 3D de la bouteille"
-        camera-controls camera-orbit="auto auto 220%" auto-rotate auto-rotate-delay="0" rotation-per-second="25deg"
-        interaction-prompt="none" touch-action="pan-y" shadow-intensity="0.8" exposure="1.1"
-        environment-image="neutral" tone-mapping="aces">
-      </model-viewer>
-      <p class="project-3d-aide">Faites glisser pour tourner autour de la bouteille · molette pour zoomer</p>
     </section>
 
     <!-- GALERIE — 1 image = 1 bloc <figure>. Ajouter une description : <div class="cap-text"><p>…</p></div> après </div> de cap-head.
