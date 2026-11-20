@@ -110,9 +110,14 @@ h1, h2, h3, .kicker, .project-subtitle { text-align: center; }
 
 /* CHIVÉ : séparateurs Passé / Présent / Futur */
 .epoque {
-  grid-column: 1 / -1; padding-top: 56px; margin-bottom: -40px; border-top: 1px solid var(--border);
+  grid-column: 1 / -1; padding-top: 56px; margin-bottom: -16px; border-top: 1px solid var(--border);   /* margin-bottom : écart titre → publication */
   font-size: clamp(2.2rem, 6vw, 4rem); font-weight: 100; text-transform: uppercase; letter-spacing: .3em;
 }
+/* Titres fins en majuscules (Projets…) */
+.titre-fin { font-weight: 100; text-transform: uppercase; letter-spacing: .3em; padding-left: .3em; font-size: clamp(2.2rem, 6vw, 4rem); }
+/* PDF intégré */
+.pdf { text-align: center; }
+.pdf iframe { display: block; width: 100%; height: min(85vh, 1100px); border: 0; border-radius: 6px; background: #fff; margin-bottom: 20px; }
 .epoque span { display: block; margin-top: 8px; font-size: .8rem; letter-spacing: .25em; color: var(--muted); font-weight: 400; }
 .gallery > .epoque:first-child { border-top: 0; padding-top: 0; }
 
